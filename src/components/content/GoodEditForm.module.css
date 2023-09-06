@@ -1,0 +1,113 @@
+.editForm {
+  margin: 2px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c8e1e2;
+  max-width: 60%;
+  min-width: 500px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0.3em 0.3em 15px rgba(122, 122, 122, 0.3);
+  color: rgb(80, 80, 80);
+}
+
+.editForm h2 {
+  color: #5bb2b5;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.category {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.liTree {
+  display: block;
+
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.ulTree {
+  margin-bottom: 5px;
+
+  /* border: 1px solid #c8e1e2;
+  width: 350px; */
+}
+
+.category select {
+  height: 25px;
+  border: 1px solid #c8e1e2;
+  font-size: 16px;
+  width: 350px;
+  text-align: center;
+  margin: 5px 0;
+  color: rgb(40, 40, 40);
+}
+.goodImageSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #c8e1e2;
+  width: 350px;
+  max-height: 500px;
+  margin: 5px 0;
+}
+.goodImageSection div {
+  width: 100%;
+}
+
+.goodName,
+.goodDescr {
+  width: 350px;
+  margin: 5px 0;
+}
+
+.goodName textarea,
+.goodDescr textarea {
+  width: 100%;
+  resize: none;
+  font-size: 16px;
+  border: 1px solid #c8e1e2;
+  min-height: 80px;
+  margin: 5px 0;
+  color: rgb(80, 80, 80);
+}
+
+.goodPrice input {
+  margin: 5px 0;
+}
+
+.applyButton {
+  margin: 20px 0;
+}
+
+.goodName textarea:focus,
+.goodDescr textarea:focus {
+  border: 1px solid #c8e1e2;
+  outline: none;
+}
+
+.imagesBox {
+  max-width: auto;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.imagesBox table {
+  width: 100%;
+  padding: 0 10px;
+}
+.imagesBox input {
+  display: block;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.imagesBox td {
+  padding-bottom: 5px;
+  /* border: 1px solid gray; */
+}

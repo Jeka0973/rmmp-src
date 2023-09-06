@@ -1,0 +1,104 @@
+.menuAndBasket {
+  position: relative;
+
+  display: flex;
+  text-align: end;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.headerItems {
+  margin-right: 250px;
+  display: flex;
+  text-align: end;
+  margin-top: 35px;
+}
+
+.headerItems > div {
+  margin-top: 30px;
+}
+
+.headerItems ul li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.headerItems ul li a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -6px;
+}
+
+.headerItems ul li a:hover {
+  color: #5bb2b5;
+}
+.headerItems ul li a:hover::after {
+  width: 50%;
+  left: 25%;
+  border-bottom: 1px solid #5bb2b5;
+}
+
+.headerItems ul li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.headerItems ul li a {
+  color: #737373;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.basketIco {
+  position: relative;
+
+  margin: 20px 30px;
+}
+
+.userButtonWrapper {
+  margin-top: 25px;
+}
+
+.currUser,
+.currAdmin {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.currAdmin {
+  font-weight: bold;
+  color: green;
+  font-size: 14px;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.goodsCounter {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+}

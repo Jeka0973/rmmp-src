@@ -1,0 +1,15 @@
+.catList {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.oneCategory {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  cursor: pointer;
+}
+
+.treeNode {
+  margin-left: 20px;
+}

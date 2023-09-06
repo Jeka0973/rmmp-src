@@ -1,0 +1,28 @@
+.labelFile,
+.dropFile {
+  background-color: hsla(182, 78%, 93%, 0.713);
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+}
+
+.dropFile {
+  background-color: #5bb2b5;
+}
+.uploadImage {
+  max-width: 100%;
+}
+.uploadImage img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.inputFile {
+  display: none;
+}

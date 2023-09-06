@@ -1,0 +1,52 @@
+.rootCats {
+  color: rgb(23, 23, 24);
+  font-size: 15px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+button {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+li a {
+  color: rgb(23, 23, 24);
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #5bb2b5;
+}
+
+.newCatInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+  color: rgb(23, 23, 24);
+}
+.newCatInput p {
+  margin-bottom: 10px;
+}
+
+.newCatInput > button {
+  margin-bottom: 30px;
+}
+
+input {
+  color: rgb(23, 23, 24);
+  font-size: 14px;
+
+  border: 1px solid #5bb2b5;
+  padding: 2px;
+}
+input:focus {
+  outline: none;
+  border-color: #5bb2b5;
+}

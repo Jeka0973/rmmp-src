@@ -1,0 +1,9 @@
+.imagesContainer img {
+  width: 70%;
+  height: auto;
+  border: 1px solid lightgray;
+}
+
+.tdImage {
+  width: 85%;
+}
